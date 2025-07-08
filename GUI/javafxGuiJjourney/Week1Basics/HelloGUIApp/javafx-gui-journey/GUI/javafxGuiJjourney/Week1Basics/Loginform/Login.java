@@ -32,7 +32,7 @@ public class Login extends Application {
     btn.setOnAction(e-> {
       String username = userNameField.getText().trim();
       String password = passwordField.getText().trim();
-      if(!username.isEmpty() || !password.isEmpty()) {
+      if(!username.isEmpty() && !password.isEmpty()) {
         if (!username.equals("ifham") || !password.equals("java123")) {
           setStatus.setText("❌ Invalid credentials!");
         } else {
