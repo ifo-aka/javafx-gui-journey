@@ -43,8 +43,10 @@ public class MultiScene  extends Application {
     appButton.setOnAction(e->{
       appTitle.setText("I am clicked");
     });
+    Button logOut = new Button("logout");
+
     VBox  app= new VBox(10);
-    app.getChildren().addAll(appTitle,appButton);
+    app.getChildren().addAll(appTitle,appButton,logOut);
 
     Scene AppScene =  new Scene(app,1000,1000);
 
@@ -64,30 +66,15 @@ public class MultiScene  extends Application {
         check.setText("please fill the above fields.");
       }
     });
+    logOut.setOnAction(e->{
+      stage.setScene(LoginScene);
+    });
 
-
-
-
-
-
-
-    stage.setTitle("first App");
+   stage.setTitle("first App");
     stage.setScene(LoginScene);
     stage.show();
-
-
-
-  }
-
-
+ }
   public static void main(String[] args) {
     launch(args);
   }
-
-
-
-
-
-
-
 }
