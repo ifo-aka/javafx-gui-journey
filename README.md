@@ -6,7 +6,7 @@ A step-by-step hands-on journey to master JavaFX GUI development.
 
 ### ✅ Week 1: Basics
 - [x] Hello GUI App
-- [ ] Login Form
+- [x] Login Form
 
 ### ⏳ Week 2: Events & Styling
 - [ ] Calculator App
