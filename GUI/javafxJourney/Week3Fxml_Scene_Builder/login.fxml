@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.effect.Glow?>
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="GUI.javafxJourney.Week3Fxml_Scene_Builder.LoginController" prefWidth="800" prefHeight="552">
+    <VBox alignment="CENTER" fillWidth="false" prefHeight="531.0" prefWidth="779.0" spacing="10">
+        <Label style="-fx-font-size: 20;" text="Login" />
+        <TextField fx:id="usernameField" promptText="Enter username" />
+        <PasswordField fx:id="passwordField" promptText="Enter password" />
+        <Button onAction="#handleLogin" text="Login" />
+        <Label fx:id="statusLabel" text="" />
+        <opaqueInsets>
+            <Insets />
+        </opaqueInsets>
+        <effect>
+            <Glow level="0.51" />
+        </effect>
+    </VBox>
+</VBox>
