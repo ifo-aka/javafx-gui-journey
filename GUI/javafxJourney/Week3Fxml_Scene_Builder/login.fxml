@@ -7,6 +7,9 @@
 <?import javafx.scene.effect.Glow?>
 <VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml" fx:controller="GUI.javafxJourney.Week3Fxml_Scene_Builder.LoginController" prefWidth="800" prefHeight="552">
+<stylesheets>
+        <URL value="@style.css"/>
+    </stylesheets>
     <VBox alignment="CENTER" fillWidth="false" prefHeight="531.0" prefWidth="779.0" spacing="10">
         <Label style="-fx-font-size: 20;" text="Login" />
         <TextField fx:id="usernameField" promptText="Enter username" />
